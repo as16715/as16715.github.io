@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Page Title and Metadata -->
+    <title>NYUAD Cat Finder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- External CSS Stylesheets -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400">
+</head>
+<body class: background-image>
+
+    <!-- Navigation Links (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-row w3-padding">
+            <div class="w3-col s3">
+                <a href="#" class="w3-button w3-block w3-black">HOME</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#menu" class="w3-button w3-block w3-black">CATALOGUE</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="#where" class="w3-button w3-block w3-black">CONTACTS</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section with Image -->
+    <header class="bgimg w3-display-container" id="home">
+        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span class="w3-tag">By Aysha Salma</span>
+        </div>
+        <div class="w3-display-middle" style="font-size: 50px; font-weight: bold; color: #000000; text-align: center; margin: 0 auto; font-family: 'Monaco', monospace; top: 70%; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+            <span style="text-shadow: 0 0 10px white;"> | NYUAD Cats are <span class="txt-rotate" data-period="2000" data-rotate='[ "cute.", "playful.", "pretty.", "fun!" ]'></span></span>
+        </div>
+        <div class="w3-display-bottomright w3-center w3-padding-large">
+            <span class="w3-text-white">Saadiyaat Island, Cat Heaven</span>
+        </div>
+    </header>
+
+    <!-- Adds a background color and large text to the whole page -->
+    <div class="w3-sand w3-large">
+
+        <!-- About Container -->
+        <div class="w3-container" id="about">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE NYUAD CATS</span></h5>
+
+                <div class="w3-panel w3-leftbar w3-light-grey">
+                    <p><i>The Infamous NYUAD cats call Saadiyat Island their home. These feline residents enjoy the comfort and care of our campus. You can often spot them lounging on plush chairs, basking in the sunlight. However, on those days when you crave a serotonin boost and can't find your beloved furry friend, fret not. I've put together a guide to our renowned campus cats and which side of the campus to look for them.</i></p>
+                    <p>-Cat enthusiast, Aysha Salma</p>
+                </div>
+                <video autoplay muted controls style="width:100%;max-width:1000px" class="w3-margin-top">
+                    <source src="img/Video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <!-- Menu/Catalogue Container -->
+        <div class="w3-container" id="menu">
+            <div class="w3-content" style="max-width:700px">
+
+                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">The NYUAD CATalogue</span></h5>
+
+                <div class="w3-row w3-center w3-card w3-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+                        <div class="w3-col s6 tablink" id="eat-button">D1-Side</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+                        <div class="w3-col s6 tablink" id="drink-button">D2-Side</div>
+                    </a>
+                </div>
+
+                <!--The catalogue content-->
+                <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+                    <h5>Moo</h5>
+                    <p class="w3-text-grey">Siamese cat, white-bottomed, with black spotted back and block spotted eyes & ears</p><br>
+
+                    <h5>Oreo</h5>
+                    <p class="w3-text-grey">Korat cat, blak-grey back, black-grey striped tail, white belly, brown ears. Wears eyeliner.</p><br>
+
+                    <h5>Caramel</h5>
+                    <p class="w3-text-grey">Siamese cat, orange striped tail and back, white belly, orange ears.</p><br>
+
+                    <h5>Sashimi</h5>
+                    <p class="w3-text-grey">Toyger cat, black-white striped tail, black-brown spotted back, brown ears.</p><br>
+
+                    <h5>Sylvia</h5>
+                    <p class="w3-text-grey">Siamese cat, brown-grey backed, brown-olive forehead and ears, black tail.</p>
+                </div>
+
+                <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+                    <h5>George</h5>
+                    <p class="w3-text-grey">Tuxedo cat, black back and white belly, black tail, white nose, racoon eyes.</p><br>
+
+                    <h5>Zorro</h5>
+                    <p class="w3-text-grey">Snowshoe cat, black nose and chin, black ears and eyeliner, black and white paws.</p><br>
+
+                    <h5>Gingerbell</h5>
+                    <p class="w3-text-grey">Siamese cat, orange striped back and tail, orange eyes, white nose.</p><br>
+
+                    <h5>Emilu</h5>
+                    <p class="w3-text-grey">Siamese cat, black and orange spotted back, orange tain, white paws.</p><br>
+
+                    <h5>Pai</h5>
+                    <p class="w3-text-grey">Bombay Cat, white body, dirt-brown ears, yellow eyes, pink nose.</p>
+                </div>
+                <img src="img/kitty.jpg" style="width: 100%; max-width: 1000px; margin-top: 32px; border: 5px solid black;">
+            </div>
+        </div>
+
+        <!-- Contact/Area Container -->
+        <div class="w3-container" id="where" style="padding-bottom:10px;">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT ME</span></h5>
+                <img src="img/me.jpg" class="w3-image" style="width: 50%; display: block; margin: 0 auto; border: 5px solid black;">
+                <div class="w3-large w3-center w3-margin-bottom">
+                    <i class="fa fa-map-marker" style="width:30px"></i> Abu Dhabi, UAE<br>
+                    <i class="fa fa-phone" style="width:30px"></i> Phone: +971 561577124<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: as16715@nyu.edu<br>
+                </div>
+            </div>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-50 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <p class="w3-medium"> SOCIALS </p>
+        <p class="w3-medium"> Instagram: <a href="https://www.instagram.com/silica_yn/?hl=en" target="_blank">Silica_yn</a></p>
+        <p class="w3-medium"> Facebook: <a href="https://www.facebook.com/aysha.salma.984/" target="_blank">Aysha Salma</a></p>
+        <p class="w3-medium"> Discord: <a href="https://discordapp.com/users/413310569832120320" target="_blank">silica1491</a></p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

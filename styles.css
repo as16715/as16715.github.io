@@ -1,0 +1,62 @@
+/* Define the font family and background styling for the entire page */
+body, html {
+    font-family: "Inconsolata", sans-serif;
+    background-image: url("img/city.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Styling for the background image container */
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/cat.jpg");
+    min-height: 100vh;
+}
+
+/* Define CSS rules for elements with class "menu" */
+.menu {
+    display: none; /* Initially hide elements with this class */
+}
+
+/* Styling for elements with class "background-image" */
+.background-image {
+    background-image: url("img/veil.jpg");
+    background-size: cover;
+    background-attachment: fixed; /* Ensures background remains fixed while scrolling */
+    background-position: center;
+}
+
+/* Styling for the transparent navigation bar */
+.w3-top {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value for transparency */
+}
+
+/* Define styling for elements with class "w3-sand" and its hover effect */
+.w3-sand, .w3-hover-sand:hover {
+    color: #000 !important;
+    background-color: transparent !important; /* Make the background transparent on hover */
+}
+
+/* Define styling for elements with ID "Eat" */
+#Eat {
+    display: block; /* Initially display the element with this ID */
+    background: white;
+}
+
+/* Define styling for elements with ID "Drinks" */
+#Drinks {
+    display: block; /* Initially display the element with this ID */
+    background: white;
+}
+
+/* Styling for elements with IDs "drink-button" and "eat-button" */
+#drink-button, #eat-button {
+    background: rgba(255,255,255,0.5); /* Set a semi-transparent white background */
+}
+
+/* Styling for video elements with a black border */
+video {
+    border: 5px solid black; /* Add a black border around video elements */
+}
